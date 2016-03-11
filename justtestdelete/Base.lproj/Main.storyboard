@@ -21,6 +21,9 @@
                                 <rect key="frame" x="32" y="515" width="312" height="94"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n7f-3f-116"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhk-qn-f4b">
                                 <rect key="frame" x="19" y="388" width="339" height="102"/>
@@ -40,11 +43,20 @@
                                 <state key="normal" title="RESET">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzy-o1-r1S"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="resetButtonLabel" destination="H6d-kR-QyY" id="6V2-yo-c2r"/>
+                        <outlet property="setCounterLabel" destination="2eO-xB-T7E" id="rsY-jM-E3q"/>
+                        <outlet property="startButtonLabel" destination="Gno-wp-hCU" id="RC5-et-pAQ"/>
+                        <outlet property="timerLabel" destination="dhk-qn-f4b" id="dHX-ea-4z1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
