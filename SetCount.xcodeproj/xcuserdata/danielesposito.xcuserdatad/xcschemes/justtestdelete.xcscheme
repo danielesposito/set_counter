@@ -17,7 +17,7 @@
                BlueprintIdentifier = "5B9428B21C9269FC00AA4EC9"
                BuildableName = "justtestdelete.app"
                BlueprintName = "justtestdelete"
-               ReferencedContainer = "container:justtestdelete.xcodeproj">
+               ReferencedContainer = "container:SetCount.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "5B9428B21C9269FC00AA4EC9"
             BuildableName = "justtestdelete.app"
             BlueprintName = "justtestdelete"
-            ReferencedContainer = "container:justtestdelete.xcodeproj">
+            ReferencedContainer = "container:SetCount.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "5B9428B21C9269FC00AA4EC9"
             BuildableName = "justtestdelete.app"
             BlueprintName = "justtestdelete"
-            ReferencedContainer = "container:justtestdelete.xcodeproj">
+            ReferencedContainer = "container:SetCount.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "5B9428B21C9269FC00AA4EC9"
             BuildableName = "justtestdelete.app"
             BlueprintName = "justtestdelete"
-            ReferencedContainer = "container:justtestdelete.xcodeproj">
+            ReferencedContainer = "container:SetCount.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

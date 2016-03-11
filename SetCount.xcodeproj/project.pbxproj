@@ -38,7 +38,7 @@
 		5B9428AA1C9269FC00AA4EC9 = {
 			isa = PBXGroup;
 			children = (
-				5B9428B51C9269FC00AA4EC9 /* justtestdelete */,
+				5B9428B51C9269FC00AA4EC9 /* SetCount */,
 				5B9428B41C9269FC00AA4EC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B9428B51C9269FC00AA4EC9 /* justtestdelete */ = {
+		5B9428B51C9269FC00AA4EC9 /* SetCount */ = {
 			isa = PBXGroup;
 			children = (
 				5B9428B61C9269FC00AA4EC9 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				5B9428BF1C9269FC00AA4EC9 /* LaunchScreen.storyboard */,
 				5B9428C21C9269FC00AA4EC9 /* Info.plist */,
 			);
-			path = justtestdelete;
+			path = SetCount;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B9428AE1C9269FC00AA4EC9 /* Build configuration list for PBXProject "justtestdelete" */;
+			buildConfigurationList = 5B9428AE1C9269FC00AA4EC9 /* Build configuration list for PBXProject "SetCount" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B9428AE1C9269FC00AA4EC9 /* Build configuration list for PBXProject "justtestdelete" */ = {
+		5B9428AE1C9269FC00AA4EC9 /* Build configuration list for PBXProject "SetCount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B9428C31C9269FC00AA4EC9 /* Debug */,
@@ -284,6 +284,7 @@
 				5B9428C71C9269FC00AA4EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
