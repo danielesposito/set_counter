@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B9428B31C9269FC00AA4EC9 /* justtestdelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justtestdelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9428B31C9269FC00AA4EC9 /* SetCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9428B61C9269FC00AA4EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B9428B81C9269FC00AA4EC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B9428BB1C9269FC00AA4EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		5B9428B41C9269FC00AA4EC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B9428B31C9269FC00AA4EC9 /* justtestdelete.app */,
+				5B9428B31C9269FC00AA4EC9 /* SetCount.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B9428B21C9269FC00AA4EC9 /* justtestdelete */ = {
+		5B9428B21C9269FC00AA4EC9 /* SetCount */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B9428C51C9269FC00AA4EC9 /* Build configuration list for PBXNativeTarget "justtestdelete" */;
+			buildConfigurationList = 5B9428C51C9269FC00AA4EC9 /* Build configuration list for PBXNativeTarget "SetCount" */;
 			buildPhases = (
 				5B9428AF1C9269FC00AA4EC9 /* Sources */,
 				5B9428B01C9269FC00AA4EC9 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = justtestdelete;
+			name = SetCount;
 			productName = justtestdelete;
-			productReference = 5B9428B31C9269FC00AA4EC9 /* justtestdelete.app */;
+			productReference = 5B9428B31C9269FC00AA4EC9 /* SetCount.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B9428B21C9269FC00AA4EC9 /* justtestdelete */,
+				5B9428B21C9269FC00AA4EC9 /* SetCount */,
 			);
 		};
 /* End PBXProject section */
@@ -247,9 +247,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = justtestdelete/Info.plist;
+				INFOPLIST_FILE = SetCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfbkk.justtestdelete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfbkk.setcount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -258,9 +258,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = justtestdelete/Info.plist;
+				INFOPLIST_FILE = SetCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfbkk.justtestdelete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfbkk.setcount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -277,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B9428C51C9269FC00AA4EC9 /* Build configuration list for PBXNativeTarget "justtestdelete" */ = {
+		5B9428C51C9269FC00AA4EC9 /* Build configuration list for PBXNativeTarget "SetCount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B9428C61C9269FC00AA4EC9 /* Debug */,
