@@ -36,7 +36,8 @@ class ViewController: UIViewController {
         setCounterLabel.text = "0"
         resetButtonLabel.hidden = true
         
-        timerLabel.textAlignment = NSTextAlignment.Justified
+//        timerLabel.font = UIFont(name: setCounterLabel.font.fontName, size: 70)
+        timerLabel.textAlignment = NSTextAlignment.Center
         
     }
 
@@ -54,7 +55,8 @@ class ViewController: UIViewController {
         
 
         // Reduce fontsize if counter reaches 100 to fit in screen
-        
+        startButtonLabel.backgroundColor = UIColor(red: 160, green: 223, blue: 122, alpha: 1.0)
+        startButtonLabel.titleLabel?.textColor = UIColor.whiteColor()
         
         if startButtonLabel.titleLabel?.text == "START" {
             
