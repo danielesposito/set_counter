@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  justtestdelete
+//  SetCount
 //
 //  Created by Daniel Esposito on 3/11/16.
 //  Copyright © 2016 Daniel Esposito. All rights reserved.
@@ -34,6 +34,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         setCounterLabel.text = "0"
+        resetButtonLabel.hidden = true
+        
+        timerLabel.textAlignment = NSTextAlignment.Justified
+        
     }
 
     
@@ -49,25 +53,30 @@ class ViewController: UIViewController {
 //        print("Stop \(stopString)")
         
 
-        
-       
+        // Reduce fontsize if counter reaches 100 to fit in screen
         
         
         if startButtonLabel.titleLabel?.text == "START" {
             
+            resetButtonLabel.hidden = false
             
             let aSelector : Selector = "updateTime"
             timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: aSelector, userInfo: nil, repeats: true)
             startTime = NSDate.timeIntervalSinceReferenceDate()
             
             startButtonLabel.setTitle("NEW SET", forState: UIControlState.Normal)
-            print("Change Button to NEW SET")
+//            print("Change Button to NEW SET")
             currentSetCount += 1
             setCounterLabel.text = String(currentSetCount)
             
             
         }
         else if startButtonLabel.titleLabel?.text == "NEW SET" {
+            
+            if currentSetCount >= 99 {
+                
+                setCounterLabel.font = UIFont(name: setCounterLabel.font.fontName, size: 230)
+            }
             
             timer.invalidate()
             
@@ -76,14 +85,11 @@ class ViewController: UIViewController {
             startTime = NSDate.timeIntervalSinceReferenceDate()
             
 //            startButtonLabel.setTitle("START", forState: UIControlState.Normal)
-            print("Started a New Set")
+//            print("Started a New Set")
             currentSetCount += 1
             setCounterLabel.text = String(currentSetCount)
         }
-        
-        
-        
-    }
+}
     
 
 
@@ -93,10 +99,11 @@ class ViewController: UIViewController {
         currentSetCount = 0
         timerLabel.text = "00:00:00"
         startButtonLabel.setTitle("START", forState: UIControlState.Normal)
+        resetButtonLabel.hidden = true
+        setCounterLabel.font = UIFont(name: setCounterLabel.font.fontName, size: 250)
+        timer.invalidate()
         
-         timer.invalidate()
     }
-    
     
     func updateTime() {
         
